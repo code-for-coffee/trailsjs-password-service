@@ -41,7 +41,7 @@ This is Service module for [Trails.js](https://github.com/trailsjs/trails). It i
 
 You'll need a trails app first. Don't know what Trails is? It is a framework similar to Ruby on Rails [Here's a getting started guide](https://github.com/trailsjs/trails-docs). You can use Hapi, Express, Sequelize, Mongoose, etc. 
 
-Generate a new trails service:
+Grab BCrypt - `npm install bcryptjs --save` and then generate a new trails service:
 
 ```bash
 $ yo trails:service PasswordService
